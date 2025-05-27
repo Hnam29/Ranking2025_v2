@@ -7,7 +7,7 @@ import sys
 from get_data_from_db import execute_sql_to_dataframe
 
 def main_ranking():
-    with open('/Users/vuhainam/Documents/PROJECT_DA/EdtechAgency/RANKING/2025/webpages/ranking.css')as f:
+    with open('styles/ranking.css')as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html = True)
 
     # st.markdown("""
@@ -37,7 +37,7 @@ def main_ranking():
             data = f.read()
         return base64.b64encode(data).decode()
     
-    img = get_img_as_base64('/Users/vuhainam/Documents/PROJECT_DA/EdtechAgency/Ranking/2025/webpages/bg.jpeg')
+    img = get_img_as_base64('webpages/bg.jpeg')
     page_bg_img = f"""
     <style>
         div[data-testid="stVerticalBlockBorderWrapper"]:nth-of-type(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1){{
