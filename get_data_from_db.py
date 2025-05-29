@@ -119,8 +119,8 @@ print("Initializing database module...") # See when this runs
 
 db_config = {
     'user': 'avnadmin',
-    'password': 'AVNS_fVJJb1mBTQ2g5yKBq4c',
-    'host': 'mysql-293df364-hector-project1.j.aivencloud.com',
+    'password': '',
+    'host': '',
     'database': 'Ranking',
     'port': 20439
 }
