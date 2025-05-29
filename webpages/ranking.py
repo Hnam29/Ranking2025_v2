@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
-from streamlit_extras.metric_cards import style_metric_cards
 import altair as alt
 from webpages.footer import footer
 import sys
 from get_data_from_db import execute_sql_to_dataframe
+from streamlit_extras.metric_cards import style_metric_cards
 
 def main_ranking():
     with open('styles/ranking.css')as f:
