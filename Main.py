@@ -1,9 +1,9 @@
 import streamlit as st 
-from streamlit_option_menu import option_menu 
 from webpages.ranking import main_ranking
 from webpages.web import main_web
 from webpages.app import main_app
 from webpages.feedback import main_feedback
+from streamlit_option_menu import option_menu 
 
 st.set_page_config(page_title="Multiple Dashboards", page_icon="📈",layout="wide",initial_sidebar_state='collapsed')
 
